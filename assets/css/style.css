@@ -1,0 +1,23 @@
+#container-1 {
+    padding: 25px;
+    border: 2px solid red;
+    background-color: pink;
+}
+
+#container-2 {
+    padding: 25px;
+    border: 2px solid red;
+    background-color: aqua;
+}
+
+#container-3 {
+    padding: 25px;
+    border: 2px solid red;
+    background-color: lightgreen;
+}
+
+#container-4 {
+    padding: 25px;
+    border: 2px solid red;
+    background-color: lightsalmon;
+}

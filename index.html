@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="app.js"></script>
+    <title>DOM Events</title>
+</head>
+
+<body>
+    <h1>Dom Events</h1>
+
+    <h2>click</h2>
+    <p>The click events allows detecting clicks on elements</p>
+    <button id="btn-1">Button 1</button>
+
+    <h2>Propagation</h2>
+    <p>Propagation allows getting events from child elements in a parent element</p>
+    <div id="container-1">
+        Container 1
+        <div id="container-2">
+            Container 2 (Has stop propagation)
+            <div id="container-3">
+                Container 3<br>
+                <button id="btn-2">Button 2</button>
+            </div>
+        </div>
+    </div>
+
+    <h2>mouseenter and mouseleave</h2>
+    <p>Detect when the mouse enters and leaves and element</p>
+    <div id="container-4">
+        <p id="paragraph-1">...</p>
+    </div>
+
+    <h2>submit and prevent default</h2>
+    <p>Triggered when a form is submitted</p>
+    <form id="form-1">
+        <input type="text" name="text" id="username-1">
+        <input type="password" name="password" id="password-1">
+        <input type="submit" value="Send">
+    </form>
+
+    <h2>focus and blur</h2>
+    <form id="form-2">
+        <input type="text" name="text" id="username-2">
+    </form>
+
+    <h2>keypress</h2>
+    <form id="form-3">
+        <input type="text" name="text" id="username-3">
+    </form>
+
+</body>
+
+</html>
